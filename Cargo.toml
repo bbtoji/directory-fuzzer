@@ -1,0 +1,13 @@
+[package]
+name = "dir-fuzzer"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+url = "2.5.4"
+clap = { version = "4.5.39", features = ["derive", "wrap_help"] }
+reqwest = "0.12.22"
+tokio = { version="1.45.1", features = ["full"] }
+futures = "0.3.31"
+indicatif = "0.18.0"
+colored = "3.0.0"
